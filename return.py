@@ -1,9 +1,9 @@
-def retn():
-    atai = 1 + 1
+def retn(a, b):
+    atai = a * b
     return atai
 
 def main():
-    kekka = retn()
+    kekka = retn(2, 2)
     print(kekka)
 
 if __name__ == "__main__":
